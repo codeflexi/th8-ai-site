@@ -107,12 +107,13 @@
                   แทนการขอไฟล์แยกจากหลายฝ่าย
                 </li>
               </ul>
-              <RouterLink
-                :to="{ name: 'logistics' }"
-                class="inline-flex items-center gap-1 text-[11px] text-red-600 hover:text-red-500 mt-1"
-              >
-                ดูหน้าจอ Logistics Suite Mockup →
-              </RouterLink>
+             <RouterLink
+  :to="{ name: 'logistics', hash: '#mockup' }"
+  class="inline-flex items-center gap-1 text-[11px] text-red-600 hover:text-red-500 mt-1"
+>
+  ดูหน้าจอ Logistics Suite Mockup →
+</RouterLink>
+
             </div>
           </div>
         </article>
